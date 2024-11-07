@@ -1,0 +1,484 @@
+@font-face{
+ font-family:portada;
+ src:url("fuentes/portada.ttf");
+}
+
+body{
+	margin:0;
+	background-image:url("imagenes/terraguideportada.jpg");
+	background-attachment:fixed;
+}
+
+.inicio{
+	margin:0;
+	background-image:url("imagenes/fondo2.jpg");
+}
+
+h1{
+	font-size:60px;
+	color:white;
+}
+
+h2{
+	font-size:30px;
+	color:white;
+}
+
+h3{
+	color:white;
+}
+
+p{
+	color:white;
+	font-size:17px;
+}
+
+img{
+	width:100%;
+	height:100vh;
+	display:block;
+}
+
+/* =====\/===== logos =====\/===== */
+
+.logo{
+	width:60%;
+	height:auto;
+}
+
+.logo2{
+	width:100%;
+	height:auto;
+}
+
+.logo3{
+	width:100%;
+	height:auto;
+	
+	border-color:black;
+}
+
+.logo31{
+	width:75%;
+	height:auto;
+	
+	border-color:black;
+}
+
+.logo32{
+	width:50%;
+	height:auto;
+	
+	border-color:black;
+}
+
+.logoa{
+	width:30%;
+    height:auto;
+}
+
+.logob{
+	width:20%;
+	height:auto;
+}
+
+.logoc{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	justify-content:center;
+}
+
+ /* =====/\===== logos =====/\===== */
+
+ /* =====\/===== links =====\/===== */
+
+a{
+	width:;
+	height:;
+}
+
+.as{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	background-color:white;
+}
+
+.as:visited{
+	border-color:white;
+}
+
+.as:hover{
+	font-size:35px;
+}
+
+.entrar{
+	width:100%;
+	height:auto;
+	
+	text-decoration:none;
+	font-size:75px;
+	font-family:portada;
+	color:#4cd43f;
+	
+	transition:0.5s;
+}
+
+.entrar:link .entrar:visited{
+	color:#4cd43f;
+}
+
+.entrar:hover{
+	font-size:100px;
+	transition:0.5s;
+}
+
+.entrarc{
+	width:35%;
+	height:auto;
+	display:flex;
+	
+	justify-content:center;
+	
+	background:rgba(0, 0, 0, 0.2);
+	
+	border-radius:100px;
+	
+	text-align:center;
+	
+}
+
+ /* =====/\===== links =====/\===== */
+
+ /* =====\/===== header =====\/===== */
+ 
+ header{
+	width:100%;
+	height:auto;
+	display:flex;
+	 
+	justify-content:center;
+	flex-wrap:wrap;
+	 
+	margin-bottom:50px;
+ }
+ 
+div{
+	
+}
+
+nav a:link,  a:visited{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	text-decoration:none;
+	font-size:30px;
+	color:#4cd43f;
+	
+	justify-content:center;
+	align-content:center;
+	
+	transition:0.2s;
+	
+	border-radius:50px;
+	border-style:outset;
+	
+}
+
+nav{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	background:rgba(0, 0, 0, 0);
+	
+	border-radius:50px;
+	
+	justify-content:space-between;
+	
+	font-size:20px;
+}
+
+.nav{
+	width:75%;
+	height:50px;
+	display:flex;
+	
+	background:rgba(0, 0, 0, 0);
+	
+	border-radius:50px;
+	
+	justify-content:space-between;
+}
+
+ /* =====/\===== header =====/\===== */
+ 
+ /* =====\/===== main =====\/===== */
+main{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	justify-items:center;
+	flex-wrap:wrap;
+	
+	background-image:url("imagenes/fondo2.jpg");
+	background-attachment:fixed;
+	 
+	background-color:white;
+}
+
+.maina{
+	width:70%;
+	height:auto;
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	justify-items:center;
+	
+	background:rgba(0, 0, 0, 0.2);
+	
+	border-radius:200px;
+	border-style:solid;
+	border-width:0px;
+	
+	margin-left:;
+	margin-right:;
+}
+
+section{
+	width:78%;
+	height:50%;
+	display:flex;
+	
+	flex-direction:column;
+	
+	justify-content:center;
+	align-items:center;
+	justify-items:center;
+	 
+	background-image:url("imagenes/tierra.jpg");
+	 
+	border-width:10px;
+	border-color:green;
+	border-left-style:ridge;
+	border-top-style:ridge;
+	border-right-style:groove;
+	border-bottom-style:groove;
+	
+	margin-bottom:100px;
+	
+	padding:1%
+}
+
+.bienvenida{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	flex-direction:column;
+	
+	justify-content:center;
+	
+	text-align:center;
+}
+
+aside{
+	width:80%;
+	height:auto;
+	display:flex;
+	
+	flex-direction:column;
+	
+	justify-content:center;
+	align-items:center;
+	justify-items:center;
+}
+
+.sli{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	margin-top:20px;
+	margin-bottom:20px;
+	
+	
+}
+
+iframe{
+	margin-bottom:20px;
+}
+
+.vid{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	flex-direction:column;
+	
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	justify-items:center;
+	
+	margin-bottom:100px;
+	
+	background-image:url("imagenes/tierra.jpg");
+	
+	border-width:10px;
+	border-color:green;
+	border-left-style:ridge;
+	border-top-style:ridge;
+	border-right-style:groove;
+	border-bottom-style:groove;
+}
+
+.act{
+	width:100%;
+	height:100%;
+	display:flex;
+	
+	flex-direction:row;
+	
+	background-image:url("imagenes/fondo2.jpg");
+	background-attachment:fixed;
+	
+	margin-bottom:100px;
+	
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+	justify-items:center;
+	
+}
+
+.tit{
+	
+}
+
+.upd{
+	width:30%;
+	height:auto;
+	display:flex;
+	
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	justify-items:center;
+	
+	background-image:url("imagenes/tierra.jpg");
+	
+	border-width:10px;
+	border-color:green;
+	border-left-style:ridge;
+	border-top-style:ridge;
+	border-right-style:groove;
+	border-bottom-style:groove;
+}
+
+.actimg{
+	width:100%;
+	height:auto;
+	display:block;
+	
+	border-width:10px;
+	border-color:green;
+	border-bottom-style:groove;
+}
+
+.infoimg{
+	width:100%;
+	height:auto;
+	display:block;
+}
+ 
+ /* =====/\===== main =====/\===== */
+ 
+ /* =====\/===== footer =====\/===== */
+ 
+footer{
+	width:100%;
+	height:auto;
+	display:flex;
+	
+	justify-content:flex-start;
+	align-content:center;
+	align-items:center;
+	
+	background-image:url("imagenes/piedra.png");
+	
+	border-width:5px;
+	border-color:grey;
+	border-left-style:inset;
+	border-top-style:inset;
+	border-right-style:outset;
+	border-bottom-style:outset;
+	
+}
+
+ /* =====/\===== footer =====/\===== */
+ 
+ /* Cajas */
+ 
+ .papa{
+	width:100%;
+	height:auto;
+	display:flex;
+	 
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+	background:rgba(0, 0, 0, 0);
+	 
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+ }
+ 
+ .arm{
+	width:35%;
+	height:auto;
+	display:flex;
+	 
+	flex-wrap:wrap;
+	flex-direction:column;
+	 
+	background:rgba(0, 0, 0, 0);
+	 
+	border-radius:50px;
+	border-color:black;
+	border-width:5px;
+	
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	justify-items:center;
+ }
+
+.arm2{
+	width:25%;
+	height:auto;
+	display:flex;
+	 
+	flex-wrap:wrap;
+	flex-direction:column;
+	 
+	background:rgba(0, 0, 0, 0);
+	 
+	border-radius:50px;
+	border-color:black;
+	border-width:5px;
+	
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	justify-items:center;
+}
